@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Princess's Birthday</title>
+    <style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 100%; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+  </head>
+  <body style="background-image:url('background.jpg');">
+  <font color="#660853"><h1><marquee>Happy Birthday Mansi &#128151;</marquee></h1></font>
+  <div class="row">
+    <div class="column" style="background-color:#660853;">
+      <img src="mansi.jpg" height="100%" width="100%">
+      <font color="#c490ba"><h1>Happy 13th Birthday My Princess</h1></font>
+    </div>
+    <div class="column" style="background-color:#c490ba;">
+      <video autoplay height="75%" width="77%" controls>
+ <source src="MOVIE.mp4" type="video/mp4">
+</video>
+      <p>&#128151;&#128151;&#128151;&#128151;&#128151;&#128151;&#128151;</p>
+    </div>
+  </div>
+  </body>
+</html>
